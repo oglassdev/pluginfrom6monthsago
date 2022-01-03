@@ -1,0 +1,47 @@
+name: HotslicerRPG
+version: 0.1
+author: oglass
+main: me.oglass.hotslicerrpg.Main
+description: Official HotslicerRPG Plugin
+api-version: 1.8
+depend: [NBTAPI,ProtocolLib]
+softdepend: ["Multiverse-Core"]
+
+commands:
+  test:
+    description: This is the test command to verify if the plugin is active.
+  nvt:
+    description: Toggles night vision on or off. (useful if you don't have fullbright)
+  rpggive:
+    description: Gives custom items. (admin only)
+  rpgmenu:
+    description: Opens the menu!
+  rpgsettings:
+    description: Opens the settings menu, also accessable through the menu.
+  addxp:
+    description: test
+  getlevel:
+    description: test
+  ccraft:
+    description: Custom Crafting
+  setclass:
+    description: Set your class, use Knight, Archer, or Healer
+  adminmenu:
+    description: Opens the admin menu!
+  debug:
+    description: Toggles the debug feature!
+  givechestitems:
+    description: Gives a player all items in a chest
+    usage: "Usage: X, Y, Z, Player"
+  miningwand:
+    description: Gives an admin a wand that lets them select the mines!
+  minestoggle:
+    description: Toggles the mines!
+  setwarp:
+    description: Sets a warp
+  crystalwand:
+    description: giv wand
+  itemc:
+    description: giv item
+  spawnentity:
+    description: spawns an entity
